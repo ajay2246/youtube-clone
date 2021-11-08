@@ -1,0 +1,162 @@
+body{
+    width:100%;
+    height:100%;
+    margin:0px;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:10px 0px;
+    background-color: rgb(248, 244, 244);
+    position:sticky;
+    top:0px;
+    z-index:1;
+}
+.img1{
+    padding:0px 20px;
+}
+.p{
+    font-size:20px;
+    font-weight: 600;
+    padding-right:200px;
+}
+.input{
+    height:35px;
+    width:500px;
+    font-size:20px;
+    font-weight: 300;
+    padding:10px;
+}
+.img3{
+    height:35px;
+    border:1px solid grey;
+    width:70px;
+    background-color: rgb(211, 202, 202);
+}
+.search{
+    padding:5px;
+    padding-left:20px;
+
+}
+.img4{
+    border:0.25px solid black;
+    border-radius:50%;
+    width:40px;
+}
+.but{
+    height:38px;
+    width:40px;
+    border:0.15px solid black;
+    border-radius: 20px;
+    margin-left:10px;
+    margin-right: 300px;
+}
+.img5{
+    padding-left:20px ;
+}
+.img6{
+    padding-left:20px;
+}
+.img7{
+    padding-left:20px;
+}
+.sidebar{
+    width:240px;
+    position:sticky;
+    top:60px;
+}
+.list{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    margin-top: 5px;
+    margin-right:3px;
+    background-color:rgb(216, 208, 208) ;
+}
+.icon{
+    padding-right: 20px;
+    padding-left:10px;
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.list1{
+    display:flex;
+    align-items:center;
+    padding:10px;
+}
+.ins{
+    width:24px;
+    height:24px;
+}
+.inner{
+    padding-left: 10px;
+    color:rgb(27, 20, 20);
+    font-weight: 540;
+}
+.container1{
+    margin-top:-655px;
+    margin-left:250px
+
+}
+.ins1{
+    width:30px;
+    height:24px;
+}
+.bodytop{
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+}
+.but2{
+    height:35px;
+    border-radius:15px;
+    padding:10px;
+    margin-left:20px;
+    font-size:1rem;
+    border:0.09px solid black;
+}
+.but1{
+    height:35px;
+    border-radius:15px;
+    padding:10px;
+    color:white;
+    background-color: rgb(43, 41, 41);
+    margin-left:5px;
+    border:0.09px solid black;
+}
+.bodybelow{
+    background-color: rgb(228, 218, 218);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.inner1{
+    display:flex;
+    align-items: center;
+}
+.innericon{
+    padding-right:15px;
+}
+.bold{
+    font-size:18px;
+    font-weight: 550;
+    padding-top:5px
+}
+.small{
+    font-size:13px;
+    padding-bottom: 20px;
+}
+span{
+    padding-left:10px;
+}
+.video{
+    padding-top:20px;
+}
